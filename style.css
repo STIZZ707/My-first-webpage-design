@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.right-links {
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 16px;
+}
+
+.top-text {
+    display: flex;
+    flex: 1;
+}
+
+.mid-text {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+.call-to-action {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
+
+.keyboardimg {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
