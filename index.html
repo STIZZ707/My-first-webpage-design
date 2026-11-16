@@ -4,29 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This wesite is awesome</title>
+    <link href="https://googleapis.com" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <h1>Header Logo</h1>
-        <ul class="right-links">
-            <li><a href="#" class="button">header link one</a></li>
-            <li><a href="#" class="button">header link two</a></li>
-            <li><a href="#" class="button">header link three</a></li>
-        </ul>
-    </div>
+    <div class="top-section">
+        <div class="header">
+            <h1 class="logo">Header Logo</h1>
+            <ul class="right-links">
+                <li><a href="#" class="button">header link one</a></li>
+                <li><a href="#" class="button">header link two</a></li>
+                <li><a href="#" class="button">header link three</a></li>
+            </ul>
+        </div>
 
-    <div class="top-text">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <button type="button">Sign Up</button>
-        <img src="./images/keyboard.jpg" class="keyboardimg" alt="Image of a Keyboard" height="6000" width="4000">
+        <div class="top-text-container">
+            <div class="top-text">
+                <h2 class="head-title">This website is awesome</h2>
+                <p class="head-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button class="top-button" type="button">Sign Up</button>
+            </div>
+            <img src="./images/keyboard.jpg" class="keyboardimg" alt="Image of a Keyboard" height="6000" width="4000">
+        </div>
     </div>
 
     <div class="mid-text">
-        <h1>Some random information</h1>
-        <div class="img-list">
-            <ul>
+        <h3 class="mid-header">Some random information</h3>
+        
+            <ul class="img-list">
                 <li>
                     <img src="./images/monitor.jpg" class="monitorimg" alt="Image of a monitor" height="6000" width="4000">
                     <p>this is some subtext under an illustration or image</p>
@@ -44,18 +49,22 @@
                     <p>this is some subtext under an illustration or image</p>
                 </li>
             </ul>
-        </div>
+    
     </div>
 
     <div class="quote">
-        <p><em>This is an inspiring quote, or a testimonial from a customer. Maybe it's filling up space, or maybe people will actaully read it. Who knows? All I know is that it looks nice.</em></p>
-        <p><strong>-Thor, God of Thunder</strong></p>
+        <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's filling up space, or maybe people will actaully read it. Who knows? All I know is that it looks nice.</p>
+        <p class="author">-Thor, God of Thunder</p>
     </div>
-
-    <div class="call-to-action">
-        <h1>Call to action! It's time!</h1>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button type="button">Sign Up</button>
+    
+    <div class="cta-section">
+        <div class="call-to-action-container">
+            <div class="call-to-action-text">
+                <h4>Call to action! It's time!</h4>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="call-button" type="button">Sign Up</button>
+        </div>
     </div>
 
     <div class="footer">
